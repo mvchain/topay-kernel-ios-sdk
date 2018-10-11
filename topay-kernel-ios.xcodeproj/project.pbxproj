@@ -15,6 +15,7 @@
 		796DEB59216F710500B6E75F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 796DEB58216F710500B6E75F /* main.m */; };
 		796DEB63216F710500B6E75F /* topay_kernel_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 796DEB62216F710500B6E75F /* topay_kernel_iosTests.m */; };
 		796DEB6E216F710500B6E75F /* topay_kernel_iosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 796DEB6D216F710500B6E75F /* topay_kernel_iosUITests.m */; };
+		796DEB7D216F726000B6E75F /* MVCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 796DEB7C216F726000B6E75F /* MVCTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		796DEB69216F710500B6E75F /* topay-kernel-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "topay-kernel-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		796DEB6D216F710500B6E75F /* topay_kernel_iosUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = topay_kernel_iosUITests.m; sourceTree = "<group>"; };
 		796DEB6F216F710500B6E75F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		796DEB7B216F726000B6E75F /* MVCTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVCTest.h; sourceTree = "<group>"; };
+		796DEB7C216F726000B6E75F /* MVCTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVCTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				796DEB4A216F710500B6E75F /* AppDelegate.m */,
 				796DEB4C216F710500B6E75F /* ViewController.h */,
 				796DEB4D216F710500B6E75F /* ViewController.m */,
+				796DEB7B216F726000B6E75F /* MVCTest.h */,
+				796DEB7C216F726000B6E75F /* MVCTest.m */,
 				796DEB4F216F710500B6E75F /* Main.storyboard */,
 				796DEB52216F710500B6E75F /* Assets.xcassets */,
 				796DEB54216F710500B6E75F /* LaunchScreen.storyboard */,
@@ -267,6 +272,7 @@
 			files = (
 				796DEB4E216F710500B6E75F /* ViewController.m in Sources */,
 				796DEB59216F710500B6E75F /* main.m in Sources */,
+				796DEB7D216F726000B6E75F /* MVCTest.m in Sources */,
 				796DEB4B216F710500B6E75F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
